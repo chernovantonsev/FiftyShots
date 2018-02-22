@@ -36,6 +36,7 @@ dependencies {
     final PICASSO_VERSION = '2.5.2'
     final DAGGER_VERSION = '2.14.1'
     final ORM_LITE_VERSION = '5.0'
+    final DOWNLOADER_VERSION = '1.1.0'
 
     def butterKnifeCompiler = "com.jakewharton:butterknife-compiler:$BUTTER_KNIFE_VERSION"
     def daggerCompiler = "com.google.dagger:dagger-compiler:$DAGGER_VERSION"
@@ -72,7 +73,7 @@ dependencies {
 
     //Picasso
     implementation "com.squareup.picasso:picasso:$PICASSO_VERSION"
-    compile 'com.jakewharton.picasso:picasso2-okhttp3-downloader:1.1.0'
+    implementation "com.jakewharton.picasso:picasso2-okhttp3-downloader:$DOWNLOADER_VERSION"
 
     //OrmLite
     implementation "com.j256.ormlite:ormlite-android:$ORM_LITE_VERSION"
