@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">50 Shots</string>
+    <string name="text_no_connection">No connection</string>
+    <string name="text_pull_to_refresh">Pull down to refresh</string>
+    <string name="text_title">Title</string>
+    <string name="description">Description</string>
+</resources>

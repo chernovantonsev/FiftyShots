@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">50 Shots</string>
+    <string name="text_no_connection">Нет подключения</string>
+    <string name="text_pull_to_refresh">Потяните вниз, чтобы обновить</string>
+    <string name="text_title">Заголовок</string>
+    <string name="description">Описание</string>
+</resources>

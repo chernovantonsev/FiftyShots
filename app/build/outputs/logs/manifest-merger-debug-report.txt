@@ -1,0 +1,126 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\GetShots\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\GetShots\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\GetShots\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\GetShots\app\src\main\AndroidManifest.xml:2:1-26:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\f8b056b6db5de8442dbd60433727481e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\4cfabc7c0d896a5e02edaaf29ed00b63\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\a214cb997b3f038dcd1974a031c6f492\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\e21f0b61305d656f0755533d72ebe072\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\ed2d301ad4b216f5dcd943fa8a47d417\AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\307a621671c7134abb554237cc5bb6ab\AndroidManifest.xml:15:1-21:12
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\3d2a5d01fe998121b75fef1eae59dc96\AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\d4407fba9f95a051234937a46c0be1c1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\04797248004ce01098784bfe3ae9610f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\7408e6a6e3475318766d87b2fc9988d2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\7b69b80ffa69e81b8317ae5def45c8af\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\a8b7ffbc89871d19d7e8bd75e36425cc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\63943708ea6846dcf920d92aa3633d3e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\e5e1d7c0a4074442cb374eb292ecfa2e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\8542c40be88666ee30b95763dd9837be\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\GetShots\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\GetShots\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from D:\GetShots\app\src\main\AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from D:\GetShots\app\src\main\AndroidManifest.xml:3:11-39
+		INJECTED from D:\GetShots\app\src\main\AndroidManifest.xml
+		INJECTED from D:\GetShots\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\GetShots\app\src\main\AndroidManifest.xml
+		ADDED from D:\GetShots\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from D:\GetShots\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\GetShots\app\src\main\AndroidManifest.xml
+		ADDED from D:\GetShots\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from D:\GetShots\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\GetShots\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\GetShots\app\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from D:\GetShots\app\src\main\AndroidManifest.xml:5:22-77
+uses-permission#android.permission.INTERNET
+ADDED from D:\GetShots\app\src\main\AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from D:\GetShots\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\GetShots\app\src\main\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from D:\GetShots\app\src\main\AndroidManifest.xml:7:22-78
+application
+ADDED from D:\GetShots\app\src\main\AndroidManifest.xml:9:5-24:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\e21f0b61305d656f0755533d72ebe072\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\e21f0b61305d656f0755533d72ebe072\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from D:\GetShots\app\src\main\AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from D:\GetShots\app\src\main\AndroidManifest.xml:13:9-41
+	android:roundIcon
+		ADDED from D:\GetShots\app\src\main\AndroidManifest.xml:14:9-54
+	android:icon
+		ADDED from D:\GetShots\app\src\main\AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from D:\GetShots\app\src\main\AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from D:\GetShots\app\src\main\AndroidManifest.xml:16:9-40
+	android:name
+		ADDED from D:\GetShots\app\src\main\AndroidManifest.xml:10:9-52
+activity#ru.antonc.fiftyshots.ui.main.MainActivity
+ADDED from D:\GetShots\app\src\main\AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from D:\GetShots\app\src\main\AndroidManifest.xml:17:19-75
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\GetShots\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from D:\GetShots\app\src\main\AndroidManifest.xml:19:17-68
+	android:name
+		ADDED from D:\GetShots\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\GetShots\app\src\main\AndroidManifest.xml:21:17-76
+	android:name
+		ADDED from D:\GetShots\app\src\main\AndroidManifest.xml:21:27-74
+uses-sdk
+INJECTED from D:\GetShots\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\GetShots\app\src\main\AndroidManifest.xml
+INJECTED from D:\GetShots\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\f8b056b6db5de8442dbd60433727481e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\f8b056b6db5de8442dbd60433727481e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\4cfabc7c0d896a5e02edaaf29ed00b63\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.0.2.aar\4cfabc7c0d896a5e02edaaf29ed00b63\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\a214cb997b3f038dcd1974a031c6f492\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\a214cb997b3f038dcd1974a031c6f492\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\e21f0b61305d656f0755533d72ebe072\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\e21f0b61305d656f0755533d72ebe072\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\ed2d301ad4b216f5dcd943fa8a47d417\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\ed2d301ad4b216f5dcd943fa8a47d417\AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\307a621671c7134abb554237cc5bb6ab\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\307a621671c7134abb554237cc5bb6ab\AndroidManifest.xml:19:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\3d2a5d01fe998121b75fef1eae59dc96\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\3d2a5d01fe998121b75fef1eae59dc96\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\d4407fba9f95a051234937a46c0be1c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\d4407fba9f95a051234937a46c0be1c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\04797248004ce01098784bfe3ae9610f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\04797248004ce01098784bfe3ae9610f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\7408e6a6e3475318766d87b2fc9988d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\7408e6a6e3475318766d87b2fc9988d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\7b69b80ffa69e81b8317ae5def45c8af\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\7b69b80ffa69e81b8317ae5def45c8af\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\a8b7ffbc89871d19d7e8bd75e36425cc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\a8b7ffbc89871d19d7e8bd75e36425cc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\63943708ea6846dcf920d92aa3633d3e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\63943708ea6846dcf920d92aa3633d3e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\e5e1d7c0a4074442cb374eb292ecfa2e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\e5e1d7c0a4074442cb374eb292ecfa2e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\8542c40be88666ee30b95763dd9837be\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\antonc\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\8542c40be88666ee30b95763dd9837be\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\GetShots\app\src\main\AndroidManifest.xml
+INJECTED from D:\GetShots\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\GetShots\app\src\main\AndroidManifest.xml
+		ADDED from D:\GetShots\app\src\main\AndroidManifest.xml
+		INJECTED from D:\GetShots\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\GetShots\app\src\main\AndroidManifest.xml
+		ADDED from D:\GetShots\app\src\main\AndroidManifest.xml
+		INJECTED from D:\GetShots\app\src\main\AndroidManifest.xml
