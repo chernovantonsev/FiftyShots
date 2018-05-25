@@ -6,5 +6,5 @@ package ru.antonc.fiftyshots.app;
 
 public class Urls {
 
-    public static final String DRIBBBLE_URL = "https://api.dribbble.com/v1/";
+    public static final String DRIBBBLE_URL = "https://api.dribbble.com/v2/";
 }

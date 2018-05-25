@@ -11,7 +11,7 @@ import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import ru.antonc.fiftyshots.app.App;
 import ru.antonc.fiftyshots.di.component.ActivityComponent;
-import ru.antonc.fiftyshots.di.component.ApplicationComponent;
+import ru.antonc.fiftyshots.di.component.ConfigPersistentComponent;
 import ru.antonc.fiftyshots.di.module.ActivityModule;
 
 /**
@@ -22,7 +22,7 @@ public abstract class BaseActivity extends AppCompatActivity implements IBaseVie
 
     private static final String KEY_ACTIVITY_ID = "KEY_ACTIVITY_ID";
     private static final AtomicLong NEXT_ID = new AtomicLong(0);
-    private static final LongSparseArray<ApplicationComponent> componentsArray = new LongSparseArray<>();
+    private static final LongSparseArray<ConfigPersistentComponent> componentsArray = new LongSparseArray<>();
 
     private long activityId;
 
@@ -38,10 +38,10 @@ public abstract class BaseActivity extends AppCompatActivity implements IBaseVie
                 savedInstanceState != null
                         ? savedInstanceState.getLong(KEY_ACTIVITY_ID)
                         : NEXT_ID.getAndIncrement();
-        ApplicationComponent configPersistentComponent;
+        ConfigPersistentComponent configPersistentComponent;
         if (componentsArray.get(activityId) == null) {
             configPersistentComponent =
-                    App.get(this).getComponent();
+                    App.get(this).getComponent().configPersistentComponent();
             componentsArray.put(activityId, configPersistentComponent);
         } else {
             configPersistentComponent = componentsArray.get(activityId);

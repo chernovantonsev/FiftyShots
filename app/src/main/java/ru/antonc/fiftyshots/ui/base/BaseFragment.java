@@ -15,7 +15,7 @@ import java.util.concurrent.atomic.AtomicLong;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import ru.antonc.fiftyshots.app.App;
-import ru.antonc.fiftyshots.di.component.ApplicationComponent;
+import ru.antonc.fiftyshots.di.component.ConfigPersistentComponent;
 import ru.antonc.fiftyshots.di.component.FragmentComponent;
 import ru.antonc.fiftyshots.di.module.FragmentModule;
 
@@ -27,7 +27,7 @@ public abstract class BaseFragment extends Fragment implements IBaseView {
 
 
     private static final String KEY_FRAGMENT_ID = "KEY_FRAGMENT_ID";
-    private static final LongSparseArray<ApplicationComponent> componentsArray = new LongSparseArray<>();
+    private static final LongSparseArray<ConfigPersistentComponent> componentsArray = new LongSparseArray<>();
     private static final AtomicLong NEXT_ID = new AtomicLong(0);
 
     private long fragmentId;
@@ -43,9 +43,9 @@ public abstract class BaseFragment extends Fragment implements IBaseView {
                 savedInstanceState != null
                         ? savedInstanceState.getLong(KEY_FRAGMENT_ID)
                         : NEXT_ID.getAndIncrement();
-        ApplicationComponent configPersistentComponent;
+        ConfigPersistentComponent configPersistentComponent;
         if (componentsArray.get(fragmentId) == null) {
-            configPersistentComponent = App.get(getActivity()).getComponent();
+            configPersistentComponent = App.get(getActivity()).getComponent().configPersistentComponent();
             componentsArray.put(fragmentId, configPersistentComponent);
         } else {
             configPersistentComponent = componentsArray.get(fragmentId);

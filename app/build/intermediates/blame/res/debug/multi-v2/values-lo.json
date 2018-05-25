@@ -4,7 +4,7 @@
             "outputFile": "D:\\GetShots\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lo\\values-lo.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\antonc\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\e5e1d7c0a4074442cb374eb292ecfa2e\\res\\values-lo\\values-lo.xml",
+                    "source": "C:\\Users\\antonc\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\f7bdfb1d91cea1eb60e3877ef5518c4d\\res\\values-lo\\values-lo.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\antonc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\f8b056b6db5de8442dbd60433727481e\\res\\values-lo\\values-lo.xml",
+                    "source": "C:\\Users\\antonc\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\a36957dbf586cd13441b3dea62e79a4f\\res\\values-lo\\values-lo.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
